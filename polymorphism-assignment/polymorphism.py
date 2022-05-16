@@ -13,9 +13,9 @@ class Emulatedvideogame():
 #creates a child class
 class Metalgear(Emulatedvideogame):
     genre: "Action"
-    gameType: "3rd person shooter"
-    console = "Nintendo"
     startButton = "Start"
+    numberOfWeapons = 12
+    characterChoices = 2
 
     def begin(self):
         #adjusts what you need to do for the game Metalgear to start an emulated session
@@ -24,9 +24,9 @@ class Metalgear(Emulatedvideogame):
 #creates a child class
 class Forza(Emulatedvideogame):
     genre: "Simulator"
-    gameType: "Racing"
-    console = "xbox"
     startButton = "X"
+    numberOfCars = 25
+    dynamicLighting = True
 
     def begin(self):
         #adjusts what you need to do for the game Forza to start an emulated session
