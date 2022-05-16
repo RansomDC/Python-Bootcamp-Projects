@@ -32,7 +32,7 @@ def createTableFromTuple():
         cur.execute("SELECT col_fileNames FROM tbl_files")
         varfiles = cur.fetchall()
         for item in varfiles:
-            print(str(item))
+            print(str(item[0]))
     conn.close()
 
 
