@@ -14,10 +14,10 @@ def create_ui(self):
     self.lbl_destination.grid(row=2,column=1,sticky=W)
     
     #buttons
-    self.btn_browse_source = Button(self.master, text='Browse...',command=lambda: file_transfer_func.selectSource(self))
+    self.btn_browse_source = Button(self.master, text='Browse...',command=lambda: file_transfer_func.select(self, 1))
     self.btn_browse_source.grid(row=1,column=0,sticky=E+W,padx=(10),pady=(0,10))     
 
-    self.btn_browse_dest = Button(self.master, text='Browse...',command=lambda: file_transfer_func.selectDest(self))
+    self.btn_browse_dest = Button(self.master, text='Browse...',command=lambda: file_transfer_func.select(self, 2))
     self.btn_browse_dest.grid(row=3,column=0,sticky=E+W,padx=(10),pady=(0,10))  
 
     self.btn_transfer = Button(self.master, text='Transfer Files...',command=lambda: file_transfer_func.transfer(self))

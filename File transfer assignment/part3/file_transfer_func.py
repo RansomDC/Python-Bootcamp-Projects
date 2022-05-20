@@ -32,15 +32,14 @@ def transfer(self):
             shutil.move(filepath, destination)
 
 #Gets the directory name from the explorer and outputs it to the source Entry element
-def selectSource(self):
+def select(self, var):
+    if var == 1:
+        selDir = str(tkinter.filedialog.askdirectory())
+        self.inp_source.insert(END,selDir)
+    else:
+        selDir = str(tkinter.filedialog.askdirectory())
+        self.inp_destination.insert(END,selDir)
 
-    selDir = str(tkinter.filedialog.askdirectory())
-    self.inp_source.insert(END,selDir)
-
-#Gets the directory name from the explorer and outputs it to the destination Entry element
-def selectDest(self):
-    selDir = str(tkinter.filedialog.askdirectory())
-    self.inp_destination.insert(END,selDir)
 
 
 if __name__ == '__main__':
