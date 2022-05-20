@@ -1,0 +1,75 @@
+import webbrowser
+import os
+import tkinter
+from tkinter import *
+
+import page_gen_gui
+import page_gen_func
+
+#Create/open a file and overwrite the data within with the html.
+app = open('page.html', "w")
+app.write("<html>\n \
+        \t<body>\n \
+        \t\t<h1>\n \
+        \tStay tuned for our amazing summer sale!\n \
+        \t\t</h1>\n \
+        \t</body>\n \
+        </html> \
+        ")
+app.close()
+
+
+#Create a gui
+class parentWindow(Frame):
+    def __init__(self, master):
+        Frame.__init__ (self)
+        self.master = master
+        master.geometry('{}x{}'.format(400,200))
+        self.master.title('Create Web Page')
+
+        #labels
+        self.lbl_filename = Label(self.master, text='Input your file name here!')
+        self.lbl_filename.grid(row=0,column=0)
+
+        self.lbl_content = Label(self.master, text='Input you web content here!')
+        self.lbl_content.grid(row=1,column=0)
+
+        #Entry/Inputs
+        self.inp_filename = Entry(self.master, text='')
+        self.inp_filename.grid(row=0,column=1)
+
+        self.inp_content = Entry(self.master,text='')
+        self.inp_content.grid(row=1,column=1)
+
+        #Button
+        self.btn_create = Button(self.master,text='Generate your webpage!',command=lambda: generate(self))
+        self.btn_create.grid(row=2,column=0,columnspan=2)
+
+
+def generate(self):
+    #Get the text input from the form
+    var_file = self.inp_filename.get() + ".html"
+    var_content = self.inp_content.get()
+
+    #Create/open a file and overwrite the data within with the html.
+    app = open(var_file, "w")
+    app.write("<html>\n \
+        \t<body>\n \
+        \t\t<h1>\n \
+        \t{}\n \
+        \t\t</h1>\n \
+        \t</body>\n \
+        </html> \
+        ".format(var_content))
+    app.close()
+
+    #Open the file that was created
+    webbrowser.open_new_tab(var_file)
+
+
+
+
+if __name__ == '__main__':
+    root = Tk()
+    App = parentWindow(root)
+    root.mainloop()
