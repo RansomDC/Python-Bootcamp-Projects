@@ -14,7 +14,7 @@ def transfer(self):
     #Obtain the list of files that are in the starting folder
     source = os.listdir(self.inp_source.get())
     for file in source:
-        filepath = ('/Users/Ranso/OneDrive/Desktop/Folder-A/' + file)
+        filepath = (self.inp_source.get() + "/" + file)
         
         #fromtimestamp translates the getmtime which is the time since a file was edited
         #to a date useable by datetime.
@@ -31,13 +31,16 @@ def transfer(self):
             #Move the current file
             shutil.move(filepath, destination)
 
+#Gets the directory name from the explorer and outputs it to the source Entry element
 def selectSource(self):
-        selDir = str(tkinter.filedialog.askdirectory())
-        self.inp_source.insert(END,selDir)
 
+    selDir = str(tkinter.filedialog.askdirectory())
+    self.inp_source.insert(END,selDir)
+
+#Gets the directory name from the explorer and outputs it to the destination Entry element
 def selectDest(self):
-        selDir = str(tkinter.filedialog.askdirectory())
-        self.inp_destination.insert(END,selDir)
+    selDir = str(tkinter.filedialog.askdirectory())
+    self.inp_destination.insert(END,selDir)
 
 
 if __name__ == '__main__':
