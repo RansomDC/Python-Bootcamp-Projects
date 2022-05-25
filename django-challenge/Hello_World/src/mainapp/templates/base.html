@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>{% block title %}{% endblock %}</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	</head>
+
+	<body>
+		<nav>
+			<a href="#">HOME</a>
+			<span> | </span>
+			<a href="#">ABOUT</a>
+			<span> | </span>
+			<a href="#">CONTACT</a>
+		</nav>
+		<header>
+			<h1>{% block header %}{% endblock %}</h1>
+		</header>
+        <div class="main">
+            {% block content %}{% endblock %}
+        </div>
+
+		<footer>Ransom Cadorette - &copy; 2022</footer>
+	</body>
+</html>

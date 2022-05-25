@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome to Chili's!{% endblock %}
+
+{% block header %}It is Wednesday my dudes.{% endblock %}s
+
+{% block content %}
+    <ul>
+        {% for user in users %}
+            <li>{{user}}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
