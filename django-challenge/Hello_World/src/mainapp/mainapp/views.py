@@ -11,4 +11,7 @@ from profiles.views import Profiles
 
 def home(request):
     users = Profiles.objects.all()
+    print(users)
+    for user in users:
+        print(user)
     return render(request, "home.html", {'user': users})

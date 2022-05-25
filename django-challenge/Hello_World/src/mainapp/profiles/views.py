@@ -6,8 +6,3 @@ from . import views
 from .models import Profiles
 
 
-def home(request):
-    users = Profiles.objects.all()
-    print("hello")
-    return render(request, "home.html", {'user': users})
-
