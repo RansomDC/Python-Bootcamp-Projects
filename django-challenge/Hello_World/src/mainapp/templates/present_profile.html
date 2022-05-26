@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome to Chili's!{% endblock %}
+
+{% block header %}It is Wednesday my dudes.{% endblock %}s
+
+{% block content %}
+    <div>
+        <form name="profileForm" method="POST" action="../details/">
+            <table>
+                {% csrf_token %}
+                {{ form.non_field_errors }}
+                {{ form.as_table }}
+                <div>
+                    <input type="submit">
+                </div>
+            </table>
+        </form>
+    </div>
+<br>
+
+{% endblock %}

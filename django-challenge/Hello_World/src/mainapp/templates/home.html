@@ -5,10 +5,19 @@
 {% block header %}It is Wednesday my dudes.{% endblock %}s
 
 {% block content %}
-    Ransom
-    <ul>
-        {% for user in users %}
-            <li>{{user}}</li>
-        {% endfor %}
-    </ul>
+    <div>
+        <form name="profileForm" method="POST" action="">
+            <div>
+                {% csrf_token %}
+                <label for="profiles_id">Select a profile:</label>
+                <select id="profiles_id" name="choose" onchange="top.location.href=this.options[this.selectedIndex].value;">
+                    {% for user in users %}
+                        <option value="../{{ user.pk }}/details/">{{ user.FirstName }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </form>
+    </div>
+<br>
+
 {% endblock %}
