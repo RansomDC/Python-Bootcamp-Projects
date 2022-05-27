@@ -31,3 +31,16 @@ def details(request, pk):
     else:
         return render(request, 'present_profile.html', {'form': form})
 
+def addProfile(request):
+    form = ProfileForm(request.POST or None)
+    if form.is_valid():
+        form.save()
+        return redirect('home')
+    else:
+        print(form.errors)
+        form = ProfileForm()
+    context = {
+        'form': form,
+    }
+    return render(request, 'addProfile.html', context)
+

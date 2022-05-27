@@ -25,6 +25,7 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('admin/', admin.site.urls),
     path('<int:pk>/details/', views.details, name="details"),
+    path('addProfile/', views.addProfile, name="addProfile"),
     #path('', include('profiles.urls')),
 ]
 

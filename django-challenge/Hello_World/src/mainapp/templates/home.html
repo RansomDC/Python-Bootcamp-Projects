@@ -15,9 +15,16 @@
                         <option value="../{{ user.pk }}/details/">{{ user.FirstName }}</option>
                     {% endfor %}
                 </select>
+                <br>
+                <div>
+                    <a href="{% url 'addProfile' %}"><button type="button">Add Profile</button></a>
+                </div>
             </div>
         </form>
+
     </div>
 <br>
+
+<!--{% url 'addProfile' %}-->
 
 {% endblock %}

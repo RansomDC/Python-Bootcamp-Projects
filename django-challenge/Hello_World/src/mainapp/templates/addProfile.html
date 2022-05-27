@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome to Chili's!{% endblock %}
+
+{% block header %}Add a Profile{% endblock %}s
+
+{% block content %}
+
+    <div>
+        <form method="POST" action="{% url 'addProfile' %}">
+            <div>
+                <!-- Cross Site Request Forgery (csrf_token) protection -->
+                {% csrf_token %}
+                {{ form.non_field_errors }}
+                {{ form.as_p }}
+            </div>
+            <div>
+                <input type="submit" value="Save new Profile" name="Save_Profile">
+                <a href="{% url 'home' %}"><button type="button" value="Cancel">Cancel</button></a>
+            </div>
+        </form>
+    </div>
+
+
+{% endblock %}
