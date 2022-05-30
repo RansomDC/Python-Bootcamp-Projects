@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="bg_img">
+    <head>
+        <meta charset=""UTF="8">
+
+        <title>{% block title %}{% endblock %}</title>
+        <meta name="viewport" content="width=device-width",initial-scale="1">
+    </head>
+    <body>
+        <div>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="#">Test 1</a></li>
+                <li><a href="#">Admin</a></li>
+            </ul>
+
+            <header>
+                <h1>{% block header %}{% endblock %}</h1>
+            </header>
+
+            {% block content %}{% endblock %}
+        </div>
+
+        <section id="block-footer">
+            <p id="footer-right"><a href="#">Stuff</a>|<a href="#">Junk</a></p>
+            <p id="footer-left">&copy;2022 - A test website</p>
+        </section>
+    </body>
+</html>
