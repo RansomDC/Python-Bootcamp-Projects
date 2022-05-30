@@ -12,9 +12,9 @@ from .forms import ProfileForm
 
 def home(request):
     users = Profiles.objects.all()
-    print(users)
-    for user in users:
-        print(user)
+#    print(users)
+#    for user in users:
+#        print(user)
     return render(request, "home.html", {'users': users})
 
 def details(request, pk):
@@ -44,3 +44,21 @@ def addProfile(request):
     }
     return render(request, 'addProfile.html', context)
 
+def delete(request, pk):
+    pk = int(pk)
+    item = get_object_or_404(Profiles, pk=pk)
+    if request.method == 'POST':
+        item.delete()
+        return redirect('home')
+    context = {"item": item,}
+    return render(request, "confirmDelete.html", context)
+
+def confirmed(request):
+    if request.method == 'POST':
+        #creates a form instance and binds data to it
+        form = ProfileForm(request.POST or None)
+        if form.is_valid():
+            form.delete()
+            return redirect('home')
+    else:
+        return redirect('home')

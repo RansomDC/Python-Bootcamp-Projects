@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome to Chili's!{% endblock %}
+
+{% block header %}It is Wednesday my dudes.{% endblock %}s
+
+{% block content %}
+
+        <form method="POST" action=".">
+            {% csrf_token %}
+            <h2>Confirm Delete</h2>
+            <p>Are you sure you would like to delete "{{item.name}}" from the database?</p>
+
+            {{ item.as_p }}
+
+            <input type="submit" value="Yes, delete it!" class="btn">       <!--The submit value for type invokes the action that is declared in the opening form tag-->
+            <a href="{% url 'home' %}"><button class="btn" type="button">Cancel</button></a>
+        </form>
+
+{% endblock %}

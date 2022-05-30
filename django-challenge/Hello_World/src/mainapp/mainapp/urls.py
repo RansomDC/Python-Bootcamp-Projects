@@ -26,6 +26,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('<int:pk>/details/', views.details, name="details"),
     path('addProfile/', views.addProfile, name="addProfile"),
+    path('<int:pk>/delete/', views.delete, name="delete"),
+    path('confirmDelete', views.confirmed, name="confirmed"),
     #path('', include('profiles.urls')),
 ]
 
