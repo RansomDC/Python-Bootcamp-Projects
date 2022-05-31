@@ -11,7 +11,7 @@ Relevant Projects section.
 INDEX
 *******
 
-===================
+
 RELEVANT PROJECTS
 ===================
 These are projects that have been put together and are as complete as they are going to get. 
