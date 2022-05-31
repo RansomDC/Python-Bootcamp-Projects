@@ -11,7 +11,7 @@ Relevant Projects section.
 INDEX
 *******
 
-===================
+
 RELEVANT PROJECTS
 ===================
 These are projects that have been put together and are as complete as they are going to get. 
@@ -44,7 +44,6 @@ Another Tkinter project designed to add phone numbers to a database while allowi
 
 
 
-===================
 PRACTICE PROJECTS
 ===================
 These are projects that are incomplete, or are simple examples of concepts within Python programming
