@@ -44,7 +44,6 @@ Another Tkinter project designed to add phone numbers to a database while allowi
 
 
 
-===================
 PRACTICE PROJECTS
 ===================
 These are projects that are incomplete, or are simple examples of concepts within Python programming
