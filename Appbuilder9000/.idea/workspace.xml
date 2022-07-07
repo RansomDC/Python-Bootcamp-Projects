@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39d9ff65-2626-4027-864c-d2c747f7af1c" name="Changes" comment="Added error page for when the API doesn't send a response." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2A55iX0WVBtgEI0WMGdbrWUDQZm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ranso/Documents/Programming/Django Project/myProject/src&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Appbuilder9000" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39d9ff65-2626-4027-864c-d2c747f7af1c" name="Changes" comment="" />
+      <created>1654286732675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654286732675</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Finished adding Model Fields. Generated a form from the model, attached it to a template that will display the form and commit inputs to the database.">
+      <created>1654623004663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654623004663</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added a history page of all jobs that are in the database. Included functionality to sort the list by the different fields.">
+      <created>1654630042270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654630042270</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adjusted Histroy page to show less information, and links on the history page that take you to a details page for each list item.">
+      <created>1654637376731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654637376731</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adjusted Histroy page to show less information, and links on the history page that take you to a details page for each list item.">
+      <created>1654641601261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654641601261</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Started on putting together the edit page and the forms needed to adjust db records.">
+      <created>1654646349480</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654646349480</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added an edit function, and entries in the database can now be edited and saved.">
+      <created>1654705149611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654705149611</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Edit and delete views are finished.">
+      <created>1654710806243</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654710806243</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Partial commit">
+      <created>1654724347067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654724347067</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added an API to the home page that pulls a random quote from zenQuotes API and presents it on the screen.">
+      <created>1654726403467</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654726403467</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added an API to the home page that pulls a random quote from zenQuotes API and presents it on the screen. The json request is also printed to the terminal.">
+      <created>1654726663577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654726663577</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changed to a different API with more functionality. Incorporated a new template page rather than the homepage.">
+      <created>1654791737252</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654791737252</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Finally finished integrating the data from the API response into the template. Currently everything works. QOL improvements tomorrow.">
+      <created>1654820122296</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654820122296</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Last touches on the API search element.">
+      <created>1654876956214</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654876956214</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added a request to a website to scrape some data for the homepage using beautifulsoup">
+      <created>1654889234556</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1654889234556</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated HTML and CSS to normalize styling across all pages.">
+      <created>1654898296855</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654898296856</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added minimum and maximum salary columns to the job search. The search view will populate those values from the API result if the values are available. Commmiting before adjusting the Model for addition of these data to the db">
+      <created>1655150838796</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655150838796</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Adjusted the main database so that it would more easily fit the data that the search function was looking for. Added a temporary database so that I can save the data searched for and then populate the database with those data if the user chooses to.">
+      <created>1655162900291</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655162900291</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Setup the test page so that it has the same functionality as the API search. Adjusted it so that it returns the data from the API search and inputs them into forms on the page. (in order to allow them to be saved to the main database.">
+      <created>1655228022641</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1655228022641</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Got the data from the search to be save-able, although it looks strange right now. All the code is still in the test template and needs to be transferred over. But I wanted to save it while It was working.">
+      <created>1655243785683</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655243785683</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Again all the saves are working, the styling is updated. There are still several pieces of functionality that I want to work on. But after that this will be done. Going to try and move the test data into the main search view.">
+      <created>1655248059773</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1655248059773</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Restore point before deleting test.">
+      <created>1655249441499</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655249441499</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Test removed, final commit for branch">
+      <created>1655249630934</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655249630934</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Adjusted some comments and minor code">
+      <created>1655250623818</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1655250623818</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Changed the field in JobScraping_input so that it only accepted the formatted date required.">
+      <created>1655311108051</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1655311108051</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Refactored saveSearch so that it is 20 lines shorter. Changed searchResults so that they display the whole day of the month and not just the first digit.">
+      <created>1655313594212</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1655313594212</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Re-added the High temperature section of the home page and it worked this time.">
+      <created>1655313891275</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1655313891275</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Set up the search results so that you can click a link to the original job posting on the results page. Also made is so that saved job posts had a link to the original job posting as well.">
+      <created>1655315432767</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1655315432767</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fixed the footer on the Job search page by adding it directly to the table.">
+      <created>1655317122721</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1655317122721</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added JobScraping_footer.html">
+      <created>1655317211301</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1655317211301</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added error page for when the API doesn't send a response.">
+      <created>1655319507293</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1655319507294</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added an edit function, and entries in the database can now be edited and saved." />
+    <MESSAGE value="Edit and delete views are finished." />
+    <MESSAGE value="Partial commit" />
+    <MESSAGE value="Added an API to the home page that pulls a random quote from zenQuotes API and presents it on the screen." />
+    <MESSAGE value="Added an API to the home page that pulls a random quote from zenQuotes API and presents it on the screen. The json request is also printed to the terminal." />
+    <MESSAGE value="Changed to a different API with more functionality. Incorporated a new template page rather than the homepage." />
+    <MESSAGE value="Finally finished integrating the data from the API response into the template. Currently everything works. QOL improvements tomorrow." />
+    <MESSAGE value="Last touches on the API search element." />
+    <MESSAGE value="Added a request to a website to scrape some data for the homepage using beautifulsoup" />
+    <MESSAGE value="Updated HTML and CSS to normalize styling across all pages." />
+    <MESSAGE value="Added minimum and maximum salary columns to the job search. The search view will populate those values from the API result if the values are available. Commmiting before adjusting the Model for addition of these data to the db" />
+    <MESSAGE value="Adjusted the main database so that it would more easily fit the data that the search function was looking for. Added a temporary database so that I can save the data searched for and then populate the database with those data if the user chooses to." />
+    <MESSAGE value="Setup the test page so that it has the same functionality as the API search. Adjusted it so that it returns the data from the API search and inputs them into forms on the page. (in order to allow them to be saved to the main database." />
+    <MESSAGE value="Got the data from the search to be save-able, although it looks strange right now. All the code is still in the test template and needs to be transferred over. But I wanted to save it while It was working." />
+    <MESSAGE value="Again all the saves are working, the styling is updated. There are still several pieces of functionality that I want to work on. But after that this will be done. Going to try and move the test data into the main search view." />
+    <MESSAGE value="Restore point before deleting test." />
+    <MESSAGE value="Test removed, final commit for branch" />
+    <MESSAGE value="Adjusted some comments and minor code" />
+    <MESSAGE value="Changed the field in JobScraping_input so that it only accepted the formatted date required." />
+    <MESSAGE value="Refactored saveSearch so that it is 20 lines shorter. Changed searchResults so that they display the whole day of the month and not just the first digit." />
+    <MESSAGE value="Re-added the High temperature section of the home page and it worked this time." />
+    <MESSAGE value="Set up the search results so that you can click a link to the original job posting on the results page. Also made is so that saved job posts had a link to the original job posting as well." />
+    <MESSAGE value="Fixed the footer on the Job search page by adding it directly to the table." />
+    <MESSAGE value="Added JobScraping_footer.html" />
+    <MESSAGE value="Added error page for when the API doesn't send a response." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added error page for when the API doesn't send a response." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
