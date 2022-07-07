@@ -1,20 +1,5 @@
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This project is a rudeimentary program for saving information about job searches in a database. It provides the functionality to do a simple API based search for jobs. You can then automatically save the data from those jobs to your database  to store for viewing later.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
-
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+This project was a simple practice project primarily for working with Django and managing basic CRUD functionality. This project was completed as an assignment, so there are several aspects that do not relate directly to the primary purpose of the program (e.g. The web scraping used to get the weather data). If something seems out of place that is most likely the reason for it's presence.
